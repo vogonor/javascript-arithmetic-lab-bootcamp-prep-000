@@ -26,10 +26,16 @@ function decrement (n) {
   return n-1
 }
 
-function makeInt(string) {if(isNaN(string)){
-  return 0 }
+function makeInt(string) {
   
-  return parseInt(string)
+  if(isNaN(string)){
+    return 0 
+  
+}else {
+     return parseInt(string)
+    
+  }
+  
 }
 
 function preserveDecimal(string){
