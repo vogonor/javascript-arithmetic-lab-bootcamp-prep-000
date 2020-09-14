@@ -28,9 +28,9 @@ function decrement (n) {
 
 function makeInt(string) {
   
-  if(!isNaN(string)){
-     return parseInt(string)
-  }
+  if(isNaN(string))
+     return 0
+   return parseInt(string)
   
 }
 
