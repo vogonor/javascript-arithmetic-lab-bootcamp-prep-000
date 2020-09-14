@@ -30,4 +30,6 @@ function makeInt(string) {
   return parseInt(string)
 }
 
-function preserveDecimal()
+function preserveDecimal(string){
+  return parseFloat(string)
+}
