@@ -28,15 +28,12 @@ function decrement (n) {
 
 function makeInt(n) {
   
-  if(isNaN(n))
-     return 0;
    return parseInt(n)
   
 }
 
 
 function preserveDecimal(string){
-    if(isNaN(string))
-     return 0;
+    
   return parseFloat(string)
 }
