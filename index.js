@@ -26,11 +26,10 @@ function decrement (n) {
   return n-1
 }
 
-function makeInt(string) {
-   const parsed = parseInt(x, base);
+function makeInt(string, base) {
+   const parsed = parseInt(string, base);
   if (isNaN(parsed)) { return 0; }
-  return parsed * 100;
-   return parseInt(string)
+  return parsed;
   
 }
 
