@@ -26,7 +26,7 @@ function decrement (n) {
   return n-1
 }
 
-function makeInt(string) {
+function makeInt(string, 10) {
   
   if(isNaN(string))
      return 0
