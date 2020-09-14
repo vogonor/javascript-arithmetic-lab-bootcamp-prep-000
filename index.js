@@ -26,13 +26,6 @@ function decrement (n) {
   return n-1
 }
 
-function makeInt(n) {
-  
-  if(isNaN(n))
-     return 0;
-   return parseInt(n)
-  
-}
 
 function preserveDecimal(string){
   return parseFloat(string)
