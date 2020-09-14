@@ -36,5 +36,7 @@ function makeInt(n) {
 
 
 function preserveDecimal(string){
+    if(isNaN(string))
+     return 0;
   return parseFloat(string)
 }
